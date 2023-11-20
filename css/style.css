@@ -28,12 +28,12 @@ body{font-family: 'Noto Sans KR', sans-serif; color: var(--main-font-color); fon
 
 header{position: relative; width: 100%;}
 header .inner {padding: 10px 0; display: flex; justify-content: space-between; align-items: center;}
-header .inner .ham-btn{display: none; font-size: 32px; z-index: 40; position: relative;}
+header .inner .ham-btn{display: none; font-size: 32px; z-index: 20; position: relative;}
 header .inner .ham-menu-title{display: none;}
 header .logo a{width: 200px; display: block;}
 header .logo a img{width: 100%; object-fit: contain;}
 
-header .inner #main-menu{display: flex; gap: 40px;}
+header .inner #main-menu{display: flex; gap: 40px; z-index: 40;}
 header .title{text-align: center; padding: 2rem; font-size: 4rem; font-weight: 400; color: var(--main-font-color);}
 footer .copyright{text-align: center;padding: 30px; background-color: var(--main-font-color); color: #fff; padding-bottom: 10px;}
 
